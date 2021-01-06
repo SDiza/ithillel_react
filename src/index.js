@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import FunctionalComponent from './functionalComponent/functionalComponent';
+import ClassComponent from './classComponent/classComponent';
+import ArrowFunctionComponent from './arrowFunctionConponent/arrowFunctionComponent'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FunctionalComponent />
+    <ClassComponent />
+    <ArrowFunctionComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
